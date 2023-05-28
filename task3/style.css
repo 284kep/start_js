@@ -1,0 +1,42 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.page {
+    background-color: bisque;
+}
+
+header {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    top: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px rgb(245, 205, 236);
+}
+
+#back {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#trafficLight {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 50px);
+}

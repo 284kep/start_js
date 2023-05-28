@@ -1,0 +1,35 @@
+html body {
+    width: auto;
+    height: 100%;
+    background-color: bisque;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px rgb(245, 205, 236);
+}
+
+li {
+    margin: 15px;
+    text-align: left;
+}
+
+li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: rgb(226, 87, 194);
+    text-shadow: 5px 5px 5px rgb(245, 205, 236);
+}
